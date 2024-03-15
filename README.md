@@ -1,6 +1,6 @@
 # Institute of Professional Studies
 
-This project is for instute of professional studies
+This project is for institute of professional studies
 
 ## Project Overview
 
