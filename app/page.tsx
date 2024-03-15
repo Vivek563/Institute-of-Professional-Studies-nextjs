@@ -1,7 +1,9 @@
+import Navbar from "@/components/organism/Navbar/Navbar";
+
 export default function Home() {
-  return (
-    <>
-      <h1>vivek</h1>
-    </>
-  );
+	return (
+		<>
+			<Navbar />
+		</>
+	);
 }
