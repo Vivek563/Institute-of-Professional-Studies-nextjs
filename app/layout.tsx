@@ -1,7 +1,7 @@
 import { Navbar } from "@/components/organism/Navbar/Navbar";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import "./globals.css";
+import "./globals.scss";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,7 +18,7 @@ export default function RootLayout({
 	return (
 		<html lang="en" className="">
 			<body className={inter.className}>
-				<div className="relative flex items-center justify-center p-2 w-full">
+				<div className="relative font-nunito font-[900] flex items-center justify-center p-2 w-full">
 					<Navbar />
 				</div>
 				{children}

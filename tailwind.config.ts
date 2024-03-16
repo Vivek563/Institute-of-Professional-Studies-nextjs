@@ -5,12 +5,27 @@ const config = {
 	content: ["./pages/**/*.{ts,tsx}", "./components/**/*.{ts,tsx}", "./app/**/*.{ts,tsx}", "./src/**/*.{ts,tsx}"],
 	prefix: "",
 	theme: {
+		fontFamily: {
+			nunito: ["Nunito"],
+		},
 		screens: {
 			sm: "640px",
 			md: "768px",
 			lg: "1024px",
 			xl: "1280px",
 			"2xl": "1536px",
+		},
+		fontSize: {
+			logo: "1rem",
+			smlogo: "[1.4rem]",
+			heading: "0.8rem",
+			subheading: "1rem",
+			caption: "1rem",
+			body: "1.25rem",
+			smheading: "0.8rem",
+			smsubheading: "1rem",
+			smcaption: "1rem",
+			smbody: "1.25rem",
 		},
 		container: {
 			center: true,
