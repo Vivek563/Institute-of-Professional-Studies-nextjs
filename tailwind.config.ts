@@ -5,6 +5,13 @@ const config = {
 	content: ["./pages/**/*.{ts,tsx}", "./components/**/*.{ts,tsx}", "./app/**/*.{ts,tsx}", "./src/**/*.{ts,tsx}"],
 	prefix: "",
 	theme: {
+		screens: {
+			sm: "640px",
+			md: "768px",
+			lg: "1024px",
+			xl: "1280px",
+			"2xl": "1536px",
+		},
 		container: {
 			center: true,
 			padding: "2rem",
@@ -14,6 +21,7 @@ const config = {
 		},
 		extend: {
 			colors: {
+				collegecolor: "#F1CB66",
 				border: "hsl(var(--border))",
 				input: "hsl(var(--input))",
 				ring: "hsl(var(--ring))",
