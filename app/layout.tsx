@@ -1,3 +1,4 @@
+import { Navbar } from "@/components/organism/Navbar/Navbar";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
@@ -15,8 +16,13 @@ export default function RootLayout({
 	children: React.ReactNode;
 }>) {
 	return (
-		<html lang="en">
-			<body className={inter.className}>{children}</body>
+		<html lang="en" className="">
+			<body className={inter.className}>
+				<div className="relative flex items-center justify-center p-2 w-full">
+					<Navbar />
+				</div>
+				{children}
+			</body>
 		</html>
 	);
 }
